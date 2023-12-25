@@ -14,6 +14,10 @@
 		116FC7A52B39D3E40046FEFE /* FirebasePhotoPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FC7A42B39D3E40046FEFE /* FirebasePhotoPickerTests.swift */; };
 		116FC7AF2B39D3E40046FEFE /* FirebasePhotoPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FC7AE2B39D3E40046FEFE /* FirebasePhotoPickerUITests.swift */; };
 		116FC7B12B39D3E40046FEFE /* FirebasePhotoPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FC7B02B39D3E40046FEFE /* FirebasePhotoPickerUITestsLaunchTests.swift */; };
+		116FC7BE2B39D4240046FEFE /* FirebasePhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FC7BD2B39D4240046FEFE /* FirebasePhotoPicker.swift */; };
+		116FC7C12B39D53D0046FEFE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 116FC7C02B39D53D0046FEFE /* FirebaseStorage */; };
+		116FC7C42B39D5BD0046FEFE /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 116FC7C32B39D5BD0046FEFE /* SDWebImageSwiftUI */; };
+		116FC7C62B39D7820046FEFE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 116FC7C52B39D7820046FEFE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,8 @@
 		116FC7AA2B39D3E40046FEFE /* FirebasePhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebasePhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		116FC7AE2B39D3E40046FEFE /* FirebasePhotoPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePhotoPickerUITests.swift; sourceTree = "<group>"; };
 		116FC7B02B39D3E40046FEFE /* FirebasePhotoPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePhotoPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		116FC7BD2B39D4240046FEFE /* FirebasePhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePhotoPicker.swift; sourceTree = "<group>"; };
+		116FC7C52B39D7820046FEFE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116FC7C42B39D5BD0046FEFE /* SDWebImageSwiftUI in Frameworks */,
+				116FC7C12B39D53D0046FEFE /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +102,10 @@
 		116FC7922B39D3E10046FEFE /* FirebasePhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
+				116FC7C52B39D7820046FEFE /* GoogleService-Info.plist */,
 				116FC7932B39D3E10046FEFE /* FirebasePhotoPickerApp.swift */,
 				116FC7952B39D3E10046FEFE /* ContentView.swift */,
+				116FC7BD2B39D4240046FEFE /* FirebasePhotoPicker.swift */,
 				116FC7972B39D3E40046FEFE /* Assets.xcassets */,
 				116FC7992B39D3E40046FEFE /* Preview Content */,
 			);
@@ -143,6 +153,10 @@
 			dependencies = (
 			);
 			name = FirebasePhotoPicker;
+			packageProductDependencies = (
+				116FC7C02B39D53D0046FEFE /* FirebaseStorage */,
+				116FC7C32B39D5BD0046FEFE /* SDWebImageSwiftUI */,
+			);
 			productName = FirebasePhotoPicker;
 			productReference = 116FC7902B39D3E10046FEFE /* FirebasePhotoPicker.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +229,10 @@
 				Base,
 			);
 			mainGroup = 116FC7872B39D3E10046FEFE;
+			packageReferences = (
+				116FC7BF2B39D53D0046FEFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				116FC7C22B39D5BD0046FEFE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 116FC7912B39D3E10046FEFE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +251,7 @@
 			files = (
 				116FC79B2B39D3E40046FEFE /* Preview Assets.xcassets in Resources */,
 				116FC7982B39D3E40046FEFE /* Assets.xcassets in Resources */,
+				116FC7C62B39D7820046FEFE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116FC7BE2B39D4240046FEFE /* FirebasePhotoPicker.swift in Sources */,
 				116FC7962B39D3E10046FEFE /* ContentView.swift in Sources */,
 				116FC7942B39D3E10046FEFE /* FirebasePhotoPickerApp.swift in Sources */,
 			);
@@ -422,7 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirebasePhotoPicker/Preview Content\"";
-				DEVELOPMENT_TEAM = T6PF4S9ABL;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -435,7 +455,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tgiraudo.FirebasePhotoPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -451,7 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FirebasePhotoPicker/Preview Content\"";
-				DEVELOPMENT_TEAM = T6PF4S9ABL;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -464,7 +483,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tgiraudo.FirebasePhotoPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -588,6 +606,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		116FC7BF2B39D53D0046FEFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+		116FC7C22B39D5BD0046FEFE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		116FC7C02B39D53D0046FEFE /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 116FC7BF2B39D53D0046FEFE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		116FC7C32B39D5BD0046FEFE /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 116FC7C22B39D5BD0046FEFE /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 116FC7882B39D3E10046FEFE /* Project object */;
 }
