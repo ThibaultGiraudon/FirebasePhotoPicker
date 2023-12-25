@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		116FC7942B39D3E10046FEFE /* FirebasePhotoPickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FC7932B39D3E10046FEFE /* FirebasePhotoPickerApp.swift */; };
+		116FC7962B39D3E10046FEFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FC7952B39D3E10046FEFE /* ContentView.swift */; };
+		116FC7982B39D3E40046FEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116FC7972B39D3E40046FEFE /* Assets.xcassets */; };
+		116FC79B2B39D3E40046FEFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116FC79A2B39D3E40046FEFE /* Preview Assets.xcassets */; };
+		116FC7A52B39D3E40046FEFE /* FirebasePhotoPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FC7A42B39D3E40046FEFE /* FirebasePhotoPickerTests.swift */; };
+		116FC7AF2B39D3E40046FEFE /* FirebasePhotoPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FC7AE2B39D3E40046FEFE /* FirebasePhotoPickerUITests.swift */; };
+		116FC7B12B39D3E40046FEFE /* FirebasePhotoPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FC7B02B39D3E40046FEFE /* FirebasePhotoPickerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		116FC7A12B39D3E40046FEFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116FC7882B39D3E10046FEFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116FC78F2B39D3E10046FEFE;
+			remoteInfo = FirebasePhotoPicker;
+		};
+		116FC7AB2B39D3E40046FEFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 116FC7882B39D3E10046FEFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 116FC78F2B39D3E10046FEFE;
+			remoteInfo = FirebasePhotoPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116FC7902B39D3E10046FEFE /* FirebasePhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebasePhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		116FC7932B39D3E10046FEFE /* FirebasePhotoPickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePhotoPickerApp.swift; sourceTree = "<group>"; };
+		116FC7952B39D3E10046FEFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		116FC7972B39D3E40046FEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		116FC79A2B39D3E40046FEFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		116FC7A02B39D3E40046FEFE /* FirebasePhotoPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebasePhotoPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		116FC7A42B39D3E40046FEFE /* FirebasePhotoPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePhotoPickerTests.swift; sourceTree = "<group>"; };
+		116FC7AA2B39D3E40046FEFE /* FirebasePhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebasePhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		116FC7AE2B39D3E40046FEFE /* FirebasePhotoPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePhotoPickerUITests.swift; sourceTree = "<group>"; };
+		116FC7B02B39D3E40046FEFE /* FirebasePhotoPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasePhotoPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		116FC78D2B39D3E10046FEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116FC79D2B39D3E40046FEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116FC7A72B39D3E40046FEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		116FC7872B39D3E10046FEFE = {
+			isa = PBXGroup;
+			children = (
+				116FC7922B39D3E10046FEFE /* FirebasePhotoPicker */,
+				116FC7A32B39D3E40046FEFE /* FirebasePhotoPickerTests */,
+				116FC7AD2B39D3E40046FEFE /* FirebasePhotoPickerUITests */,
+				116FC7912B39D3E10046FEFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		116FC7912B39D3E10046FEFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				116FC7902B39D3E10046FEFE /* FirebasePhotoPicker.app */,
+				116FC7A02B39D3E40046FEFE /* FirebasePhotoPickerTests.xctest */,
+				116FC7AA2B39D3E40046FEFE /* FirebasePhotoPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116FC7922B39D3E10046FEFE /* FirebasePhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				116FC7932B39D3E10046FEFE /* FirebasePhotoPickerApp.swift */,
+				116FC7952B39D3E10046FEFE /* ContentView.swift */,
+				116FC7972B39D3E40046FEFE /* Assets.xcassets */,
+				116FC7992B39D3E40046FEFE /* Preview Content */,
+			);
+			path = FirebasePhotoPicker;
+			sourceTree = "<group>";
+		};
+		116FC7992B39D3E40046FEFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				116FC79A2B39D3E40046FEFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		116FC7A32B39D3E40046FEFE /* FirebasePhotoPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				116FC7A42B39D3E40046FEFE /* FirebasePhotoPickerTests.swift */,
+			);
+			path = FirebasePhotoPickerTests;
+			sourceTree = "<group>";
+		};
+		116FC7AD2B39D3E40046FEFE /* FirebasePhotoPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				116FC7AE2B39D3E40046FEFE /* FirebasePhotoPickerUITests.swift */,
+				116FC7B02B39D3E40046FEFE /* FirebasePhotoPickerUITestsLaunchTests.swift */,
+			);
+			path = FirebasePhotoPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		116FC78F2B39D3E10046FEFE /* FirebasePhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116FC7B42B39D3E40046FEFE /* Build configuration list for PBXNativeTarget "FirebasePhotoPicker" */;
+			buildPhases = (
+				116FC78C2B39D3E10046FEFE /* Sources */,
+				116FC78D2B39D3E10046FEFE /* Frameworks */,
+				116FC78E2B39D3E10046FEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebasePhotoPicker;
+			productName = FirebasePhotoPicker;
+			productReference = 116FC7902B39D3E10046FEFE /* FirebasePhotoPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		116FC79F2B39D3E40046FEFE /* FirebasePhotoPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116FC7B72B39D3E40046FEFE /* Build configuration list for PBXNativeTarget "FirebasePhotoPickerTests" */;
+			buildPhases = (
+				116FC79C2B39D3E40046FEFE /* Sources */,
+				116FC79D2B39D3E40046FEFE /* Frameworks */,
+				116FC79E2B39D3E40046FEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116FC7A22B39D3E40046FEFE /* PBXTargetDependency */,
+			);
+			name = FirebasePhotoPickerTests;
+			productName = FirebasePhotoPickerTests;
+			productReference = 116FC7A02B39D3E40046FEFE /* FirebasePhotoPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		116FC7A92B39D3E40046FEFE /* FirebasePhotoPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116FC7BA2B39D3E40046FEFE /* Build configuration list for PBXNativeTarget "FirebasePhotoPickerUITests" */;
+			buildPhases = (
+				116FC7A62B39D3E40046FEFE /* Sources */,
+				116FC7A72B39D3E40046FEFE /* Frameworks */,
+				116FC7A82B39D3E40046FEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				116FC7AC2B39D3E40046FEFE /* PBXTargetDependency */,
+			);
+			name = FirebasePhotoPickerUITests;
+			productName = FirebasePhotoPickerUITests;
+			productReference = 116FC7AA2B39D3E40046FEFE /* FirebasePhotoPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		116FC7882B39D3E10046FEFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					116FC78F2B39D3E10046FEFE = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					116FC79F2B39D3E40046FEFE = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 116FC78F2B39D3E10046FEFE;
+					};
+					116FC7A92B39D3E40046FEFE = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 116FC78F2B39D3E10046FEFE;
+					};
+				};
+			};
+			buildConfigurationList = 116FC78B2B39D3E10046FEFE /* Build configuration list for PBXProject "FirebasePhotoPicker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 116FC7872B39D3E10046FEFE;
+			productRefGroup = 116FC7912B39D3E10046FEFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				116FC78F2B39D3E10046FEFE /* FirebasePhotoPicker */,
+				116FC79F2B39D3E40046FEFE /* FirebasePhotoPickerTests */,
+				116FC7A92B39D3E40046FEFE /* FirebasePhotoPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		116FC78E2B39D3E10046FEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116FC79B2B39D3E40046FEFE /* Preview Assets.xcassets in Resources */,
+				116FC7982B39D3E40046FEFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116FC79E2B39D3E40046FEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116FC7A82B39D3E40046FEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		116FC78C2B39D3E10046FEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116FC7962B39D3E10046FEFE /* ContentView.swift in Sources */,
+				116FC7942B39D3E10046FEFE /* FirebasePhotoPickerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116FC79C2B39D3E40046FEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116FC7A52B39D3E40046FEFE /* FirebasePhotoPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116FC7A62B39D3E40046FEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116FC7B12B39D3E40046FEFE /* FirebasePhotoPickerUITestsLaunchTests.swift in Sources */,
+				116FC7AF2B39D3E40046FEFE /* FirebasePhotoPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		116FC7A22B39D3E40046FEFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116FC78F2B39D3E10046FEFE /* FirebasePhotoPicker */;
+			targetProxy = 116FC7A12B39D3E40046FEFE /* PBXContainerItemProxy */;
+		};
+		116FC7AC2B39D3E40046FEFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 116FC78F2B39D3E10046FEFE /* FirebasePhotoPicker */;
+			targetProxy = 116FC7AB2B39D3E40046FEFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		116FC7B22B39D3E40046FEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		116FC7B32B39D3E40046FEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		116FC7B52B39D3E40046FEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebasePhotoPicker/Preview Content\"";
+				DEVELOPMENT_TEAM = T6PF4S9ABL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tgiraudo.FirebasePhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		116FC7B62B39D3E40046FEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebasePhotoPicker/Preview Content\"";
+				DEVELOPMENT_TEAM = T6PF4S9ABL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tgiraudo.FirebasePhotoPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		116FC7B82B39D3E40046FEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6PF4S9ABL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tgiraudo.FirebasePhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebasePhotoPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirebasePhotoPicker";
+			};
+			name = Debug;
+		};
+		116FC7B92B39D3E40046FEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6PF4S9ABL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tgiraudo.FirebasePhotoPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebasePhotoPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirebasePhotoPicker";
+			};
+			name = Release;
+		};
+		116FC7BB2B39D3E40046FEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6PF4S9ABL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tgiraudo.FirebasePhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebasePhotoPicker;
+			};
+			name = Debug;
+		};
+		116FC7BC2B39D3E40046FEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6PF4S9ABL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tgiraudo.FirebasePhotoPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebasePhotoPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		116FC78B2B39D3E10046FEFE /* Build configuration list for PBXProject "FirebasePhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116FC7B22B39D3E40046FEFE /* Debug */,
+				116FC7B32B39D3E40046FEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116FC7B42B39D3E40046FEFE /* Build configuration list for PBXNativeTarget "FirebasePhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116FC7B52B39D3E40046FEFE /* Debug */,
+				116FC7B62B39D3E40046FEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116FC7B72B39D3E40046FEFE /* Build configuration list for PBXNativeTarget "FirebasePhotoPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116FC7B82B39D3E40046FEFE /* Debug */,
+				116FC7B92B39D3E40046FEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116FC7BA2B39D3E40046FEFE /* Build configuration list for PBXNativeTarget "FirebasePhotoPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116FC7BB2B39D3E40046FEFE /* Debug */,
+				116FC7BC2B39D3E40046FEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 116FC7882B39D3E10046FEFE /* Project object */;
+}
